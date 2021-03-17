@@ -1,0 +1,7 @@
+package com.example.demo.cmm.util;
+
+@Fun
+public interface CompareToIgnoreCase {
+	public int ignore(String s);
+
+}

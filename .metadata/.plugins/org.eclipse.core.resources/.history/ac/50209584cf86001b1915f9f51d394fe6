@@ -1,0 +1,10 @@
+package com.example.demo.uss.service;
+
+import java.util.Optional;
+
+import com.example.demo.uss.domain.AdminDto;
+
+public interface AdminService {
+	public <T> void delete(T Entity);
+	public <T> Optional<T> findById(AdminDto id);
+}

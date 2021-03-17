@@ -1410,3 +1410,831 @@
 2021-03-16 17:23:26,790 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-03-16 17:23:26,790 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2021-03-16 17:24:54,560 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-16 17:43:33,704 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-16 17:43:46,532 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-16 17:43:46,543 [Worker-6: Building] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Running 'yarn install' in D:\project\workspace3\demo\front
+2021-03-16 17:43:46,799 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - yarn install v1.16.0
+2021-03-16 17:43:46,917 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - [1/4] Resolving packages...
+2021-03-16 17:43:47,881 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - success Already up-to-date.
+2021-03-16 17:43:47,892 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Done in 1.11s.
+2021-03-16 17:43:48,255 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:43:48,261 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-16 17:43:48,279 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 17:43:48,283 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:43:48,284 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-16 17:43:48,286 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-16 17:43:48,286 [Worker-6: Building] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Running 'yarn build' in D:\project\workspace3\demo\front
+2021-03-16 17:43:48,651 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - yarn run v1.16.0
+2021-03-16 17:43:48,733 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - $ react-scripts build
+2021-03-16 17:43:52,552 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Creating an optimized production build...
+2021-03-16 17:43:58,617 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Compiled with warnings.
+2021-03-16 17:43:58,618 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-16 17:43:58,618 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\App.js
+2021-03-16 17:43:58,618 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 1:17:  'useState' is defined but never used  no-unused-vars
+2021-03-16 17:43:58,618 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-16 17:43:58,618 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\cmm\container\Home.js
+2021-03-16 17:43:58,618 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 1:17:  'useState' is defined but never used  no-unused-vars
+2021-03-16 17:43:58,618 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-16 17:43:58,618 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\index.js
+2021-03-16 17:43:58,618 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 4:42:  'Router' is defined but never used  no-unused-vars
+2021-03-16 17:43:58,618 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-16 17:43:58,618 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\sec\container\Login.js
+2021-03-16 17:43:58,618 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 1:17:   'useState' is defined but never used                                                                                                                                                                                                                                                                                                                              no-unused-vars
+2021-03-16 17:43:58,619 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 23:42:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+2021-03-16 17:43:58,619 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-16 17:43:58,619 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\uss\contanier\SignUp.js
+2021-03-16 17:43:58,619 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 23:50:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+2021-03-16 17:43:58,619 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-16 17:43:58,619 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Search for the keywords to learn more about each warning.
+2021-03-16 17:43:58,619 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - To ignore, add // eslint-disable-next-line to the line before.
+2021-03-16 17:43:58,619 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-16 17:43:58,619 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - File sizes after gzip:
+2021-03-16 17:43:58,619 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-16 17:43:58,641 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   51.53 KB  build\static\js\2.98d6e635.chunk.js
+2021-03-16 17:43:58,642 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   1.56 KB   build\static\js\3.4fe81683.chunk.js
+2021-03-16 17:43:58,642 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   1.31 KB   build\static\js\main.9970c83e.chunk.js
+2021-03-16 17:43:58,642 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   1.16 KB   build\static\js\runtime-main.9eef8d37.js
+2021-03-16 17:43:58,642 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   852 B     build\static\css\main.0de774d3.chunk.css
+2021-03-16 17:43:58,642 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-16 17:43:58,642 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - The project was built assuming it is hosted at /.
+2021-03-16 17:43:58,642 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - You can control this with the homepage field in your package.json.
+2021-03-16 17:43:58,642 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-16 17:43:58,642 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - The build folder is ready to be deployed.
+2021-03-16 17:43:58,642 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - You may serve it with a static server:
+2021-03-16 17:43:58,642 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-16 17:43:58,643 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   yarn global add serve
+2021-03-16 17:43:58,643 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   serve -s build
+2021-03-16 17:43:58,643 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-16 17:43:58,643 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Find out more about deployment here:
+2021-03-16 17:43:58,643 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-16 17:43:58,643 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   https://cra.link/deployment
+2021-03-16 17:43:58,643 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-16 17:43:58,719 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Done in 10.10s.
+2021-03-16 17:43:58,739 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:43:58,741 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2021-03-16 17:46:18,236 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-16 17:46:18,237 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-16 17:46:18,244 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:46:18,247 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-16 17:46:18,251 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 17:46:18,254 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:46:18,254 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-16 17:46:18,255 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-16 17:46:18,255 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-16 17:46:18,257 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:46:18,257 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 17:48:01,070 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-16 17:48:01,071 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-16 17:48:01,091 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:48:01,095 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-03-16 17:48:01,103 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 17:48:01,110 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:48:01,111 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-16 17:48:01,114 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-16 17:48:01,115 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-16 17:48:01,121 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:48:01,121 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 17:48:33,128 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-16 17:48:33,128 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-16 17:48:33,130 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:48:33,131 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-03-16 17:48:33,134 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 17:48:33,136 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:48:33,136 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-16 17:48:33,137 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-16 17:48:33,137 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-16 17:48:33,139 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:48:33,139 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 17:48:42,564 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-16 17:48:42,564 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-16 17:48:42,566 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:48:42,566 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-03-16 17:48:42,570 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 17:48:42,571 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:48:42,571 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-16 17:48:42,572 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-16 17:48:42,572 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-16 17:48:42,575 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:48:42,575 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 17:48:44,038 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-16 17:48:44,038 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-16 17:48:44,042 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:48:44,042 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-03-16 17:48:44,045 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 17:48:44,047 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:48:44,047 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-16 17:48:44,049 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-16 17:48:44,049 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-16 17:48:44,051 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:48:44,051 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 17:48:59,603 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-16 17:48:59,604 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-16 17:48:59,608 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:48:59,610 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-03-16 17:48:59,616 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 17:48:59,621 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:48:59,621 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-16 17:48:59,623 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-16 17:48:59,623 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-16 17:48:59,627 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:48:59,627 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 17:49:09,439 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-16 17:49:09,439 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-16 17:49:09,442 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:49:09,443 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-03-16 17:49:09,447 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 17:49:09,451 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:49:09,451 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-16 17:49:09,454 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-16 17:49:09,454 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-16 17:49:09,457 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:49:09,458 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 17:51:30,436 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-16 17:51:30,437 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-16 17:51:30,440 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:51:30,441 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-03-16 17:51:30,446 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 17:51:30,449 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:51:30,449 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-16 17:51:30,450 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-16 17:51:30,451 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-16 17:51:30,453 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:51:30,454 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 17:51:54,522 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-16 17:51:54,522 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-16 17:51:54,526 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:51:54,527 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 17:51:54,528 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 17:51:54,533 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:51:54,534 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-16 17:51:54,536 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-16 17:51:54,536 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-16 17:51:54,540 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 17:51:54,541 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:30:30,055 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-16 18:30:30,056 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-16 18:30:30,059 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 18:30:30,060 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-16 18:30:30,067 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:30:30,069 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 18:30:30,069 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-16 18:30:30,070 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-16 18:30:30,070 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-16 18:30:30,072 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 18:30:30,072 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 02:05:08,520 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-17 02:05:41,002 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 02:05:41,016 [Worker-4: Building] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Running 'yarn install' in D:\project\workspace3\demo\front
+2021-03-17 02:05:43,098 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - yarn install v1.16.0
+2021-03-17 02:05:43,315 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - [1/4] Resolving packages...
+2021-03-17 02:05:44,603 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - success Already up-to-date.
+2021-03-17 02:05:44,614 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Done in 1.54s.
+2021-03-17 02:05:45,103 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 02:05:45,112 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 02:05:45,143 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 02:05:45,147 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 02:05:45,148 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 02:05:45,149 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 02:05:45,150 [Worker-4: Building] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Running 'yarn build' in D:\project\workspace3\demo\front
+2021-03-17 02:05:45,531 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - yarn run v1.16.0
+2021-03-17 02:05:45,587 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - $ react-scripts build
+2021-03-17 02:06:37,071 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Creating an optimized production build...
+2021-03-17 02:07:32,906 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Compiled with warnings.
+2021-03-17 02:07:32,907 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 02:07:32,907 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\App.js
+2021-03-17 02:07:32,907 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 1:17:  'useState' is defined but never used  no-unused-vars
+2021-03-17 02:07:32,907 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 02:07:32,907 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\cmm\container\Home.js
+2021-03-17 02:07:32,907 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 1:17:  'useState' is defined but never used  no-unused-vars
+2021-03-17 02:07:32,907 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 02:07:32,907 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\index.js
+2021-03-17 02:07:32,907 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 4:42:  'Router' is defined but never used  no-unused-vars
+2021-03-17 02:07:32,907 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 02:07:32,907 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\sec\container\Login.js
+2021-03-17 02:07:32,907 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 1:17:   'useState' is defined but never used                                                                                                                                                                                                                                                                                                                              no-unused-vars
+2021-03-17 02:07:32,907 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 23:42:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+2021-03-17 02:07:32,908 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 02:07:32,908 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\uss\contanier\SignUp.js
+2021-03-17 02:07:32,908 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 23:50:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+2021-03-17 02:07:32,908 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 02:07:32,908 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Search for the keywords to learn more about each warning.
+2021-03-17 02:07:32,908 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - To ignore, add // eslint-disable-next-line to the line before.
+2021-03-17 02:07:32,908 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 02:07:32,909 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - File sizes after gzip:
+2021-03-17 02:07:32,909 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 02:07:32,929 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   51.53 KB  build\static\js\2.98d6e635.chunk.js
+2021-03-17 02:07:32,929 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   1.56 KB   build\static\js\3.4fe81683.chunk.js
+2021-03-17 02:07:32,929 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   1.31 KB   build\static\js\main.9970c83e.chunk.js
+2021-03-17 02:07:32,929 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   1.16 KB   build\static\js\runtime-main.9eef8d37.js
+2021-03-17 02:07:32,929 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   852 B     build\static\css\main.0de774d3.chunk.css
+2021-03-17 02:07:32,929 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 02:07:32,929 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - The project was built assuming it is hosted at /.
+2021-03-17 02:07:32,929 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - You can control this with the homepage field in your package.json.
+2021-03-17 02:07:32,929 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 02:07:32,930 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - The build folder is ready to be deployed.
+2021-03-17 02:07:32,930 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - You may serve it with a static server:
+2021-03-17 02:07:32,930 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 02:07:32,931 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   yarn global add serve
+2021-03-17 02:07:32,931 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   serve -s build
+2021-03-17 02:07:32,931 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 02:07:32,931 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Find out more about deployment here:
+2021-03-17 02:07:32,931 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 02:07:32,931 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   https://cra.link/deployment
+2021-03-17 02:07:32,931 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 02:07:32,989 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Done in 107.47s.
+2021-03-17 02:07:33,008 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 02:07:33,009 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2021-03-17 09:26:32,176 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-17 10:33:08,634 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 10:33:08,645 [Worker-20: Building] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Running 'yarn install' in D:\project\workspace3\demo\front
+2021-03-17 10:33:10,600 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - yarn install v1.16.0
+2021-03-17 10:33:10,828 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - [1/4] Resolving packages...
+2021-03-17 10:33:11,810 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - success Already up-to-date.
+2021-03-17 10:33:11,823 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Done in 1.24s.
+2021-03-17 10:33:12,177 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 10:33:12,181 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 10:33:12,203 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:33:12,205 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 10:33:12,205 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 10:33:12,206 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 10:33:12,206 [Worker-20: Building] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Running 'yarn build' in D:\project\workspace3\demo\front
+2021-03-17 10:33:12,476 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - yarn run v1.16.0
+2021-03-17 10:33:12,548 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - $ react-scripts build
+2021-03-17 10:34:04,020 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Creating an optimized production build...
+2021-03-17 10:35:00,446 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Compiled with warnings.
+2021-03-17 10:35:00,446 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 10:35:00,447 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\App.js
+2021-03-17 10:35:00,447 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 1:17:  'useState' is defined but never used  no-unused-vars
+2021-03-17 10:35:00,447 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 10:35:00,447 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\cmm\container\Home.js
+2021-03-17 10:35:00,447 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 1:17:  'useState' is defined but never used  no-unused-vars
+2021-03-17 10:35:00,447 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 10:35:00,447 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\index.js
+2021-03-17 10:35:00,447 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 4:42:  'Router' is defined but never used  no-unused-vars
+2021-03-17 10:35:00,447 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 10:35:00,447 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\sec\container\Login.js
+2021-03-17 10:35:00,447 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 1:17:   'useState' is defined but never used                                                                                                                                                                                                                                                                                                                              no-unused-vars
+2021-03-17 10:35:00,447 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 23:42:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+2021-03-17 10:35:00,447 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 10:35:00,447 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\uss\contanier\SignUp.js
+2021-03-17 10:35:00,447 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 23:50:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+2021-03-17 10:35:00,447 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 10:35:00,447 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Search for the keywords to learn more about each warning.
+2021-03-17 10:35:00,447 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - To ignore, add // eslint-disable-next-line to the line before.
+2021-03-17 10:35:00,448 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 10:35:00,448 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - File sizes after gzip:
+2021-03-17 10:35:00,448 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 10:35:00,468 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   51.53 KB  build\static\js\2.98d6e635.chunk.js
+2021-03-17 10:35:00,468 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   1.56 KB   build\static\js\3.4fe81683.chunk.js
+2021-03-17 10:35:00,468 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   1.31 KB   build\static\js\main.9970c83e.chunk.js
+2021-03-17 10:35:00,469 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   1.16 KB   build\static\js\runtime-main.9eef8d37.js
+2021-03-17 10:35:00,469 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   852 B     build\static\css\main.0de774d3.chunk.css
+2021-03-17 10:35:00,469 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 10:35:00,469 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - The project was built assuming it is hosted at /.
+2021-03-17 10:35:00,469 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - You can control this with the homepage field in your package.json.
+2021-03-17 10:35:00,469 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 10:35:00,469 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - The build folder is ready to be deployed.
+2021-03-17 10:35:00,469 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - You may serve it with a static server:
+2021-03-17 10:35:00,469 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 10:35:00,470 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   yarn global add serve
+2021-03-17 10:35:00,470 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   serve -s build
+2021-03-17 10:35:00,470 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 10:35:00,470 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Find out more about deployment here:
+2021-03-17 10:35:00,470 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 10:35:00,470 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   https://cra.link/deployment
+2021-03-17 10:35:00,470 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 10:35:00,539 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Done in 108.09s.
+2021-03-17 10:35:00,562 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 10:35:00,563 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2021-03-17 12:19:01,150 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 12:19:01,151 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 12:19:01,154 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 12:19:01,159 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 12:19:01,182 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 12:19:01,186 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 12:19:01,186 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 12:19:01,187 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 12:19:01,187 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 12:19:01,196 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 12:19:01,197 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 12:22:19,187 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 12:22:19,188 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 12:22:19,191 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 12:22:19,192 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 12:22:19,195 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 12:22:19,199 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 12:22:19,199 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 12:22:19,200 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 12:22:19,200 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 12:22:19,203 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 12:22:19,203 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 14:11:21,909 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-03-17 14:11:22,401 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2021-03-17 14:16:13,013 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:16:13,025 [Worker-9: Building] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Running 'yarn install' in D:\project\workspace3\demo\front
+2021-03-17 14:16:13,298 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - yarn install v1.16.0
+2021-03-17 14:16:13,307 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultYarnRunner - warning You don't appear to have an internet connection. Try the --offline flag to use the cache for registry queries.
+2021-03-17 14:16:13,420 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - [1/4] Resolving packages...
+2021-03-17 14:16:14,476 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - success Already up-to-date.
+2021-03-17 14:16:14,491 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Done in 1.21s.
+2021-03-17 14:16:14,787 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:16:14,795 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 14:16:14,814 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 14:16:14,818 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:16:14,818 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 14:16:14,820 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:16:14,820 [Worker-9: Building] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Running 'yarn build' in D:\project\workspace3\demo\front
+2021-03-17 14:16:15,118 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - yarn run v1.16.0
+2021-03-17 14:16:15,129 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultYarnRunner - warning You don't appear to have an internet connection. Try the --offline flag to use the cache for registry queries.
+2021-03-17 14:16:15,180 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - $ react-scripts build
+2021-03-17 14:16:18,342 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Creating an optimized production build...
+2021-03-17 14:16:24,195 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Compiled with warnings.
+2021-03-17 14:16:24,195 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:16:24,195 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\App.js
+2021-03-17 14:16:24,195 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 1:17:  'useState' is defined but never used  no-unused-vars
+2021-03-17 14:16:24,195 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:16:24,195 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\cmm\container\Home.js
+2021-03-17 14:16:24,195 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 1:17:  'useState' is defined but never used  no-unused-vars
+2021-03-17 14:16:24,195 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:16:24,195 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\index.js
+2021-03-17 14:16:24,195 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 4:42:  'Router' is defined but never used  no-unused-vars
+2021-03-17 14:16:24,195 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:16:24,195 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\sec\container\Login.js
+2021-03-17 14:16:24,195 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 1:17:   'useState' is defined but never used                                                                                                                                                                                                                                                                                                                              no-unused-vars
+2021-03-17 14:16:24,195 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 23:42:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+2021-03-17 14:16:24,195 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:16:24,195 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\uss\contanier\SignUp.js
+2021-03-17 14:16:24,195 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 23:50:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+2021-03-17 14:16:24,195 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:16:24,195 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Search for the keywords to learn more about each warning.
+2021-03-17 14:16:24,195 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - To ignore, add // eslint-disable-next-line to the line before.
+2021-03-17 14:16:24,195 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:16:24,195 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - File sizes after gzip:
+2021-03-17 14:16:24,195 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:16:24,209 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   51.53 KB  build\static\js\2.98d6e635.chunk.js
+2021-03-17 14:16:24,210 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   1.56 KB   build\static\js\3.4fe81683.chunk.js
+2021-03-17 14:16:24,210 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   1.31 KB   build\static\js\main.9970c83e.chunk.js
+2021-03-17 14:16:24,210 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   1.16 KB   build\static\js\runtime-main.9eef8d37.js
+2021-03-17 14:16:24,210 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   852 B     build\static\css\main.0de774d3.chunk.css
+2021-03-17 14:16:24,210 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:16:24,210 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - The project was built assuming it is hosted at /.
+2021-03-17 14:16:24,210 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - You can control this with the homepage field in your package.json.
+2021-03-17 14:16:24,210 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:16:24,210 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - The build folder is ready to be deployed.
+2021-03-17 14:16:24,210 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - You may serve it with a static server:
+2021-03-17 14:16:24,210 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:16:24,210 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   yarn global add serve
+2021-03-17 14:16:24,210 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   serve -s build
+2021-03-17 14:16:24,210 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:16:24,210 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Find out more about deployment here:
+2021-03-17 14:16:24,210 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:16:24,210 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   https://cra.link/deployment
+2021-03-17 14:16:24,210 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:16:24,265 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Done in 9.17s.
+2021-03-17 14:16:24,286 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:16:24,288 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2021-03-17 14:24:42,412 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:24:42,412 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 14:24:42,416 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:24:42,418 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 14:24:42,422 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 14:24:42,424 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:24:42,424 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 14:24:42,425 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:24:42,425 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 14:24:42,427 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:24:42,427 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 14:28:43,322 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:28:43,323 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 14:28:43,326 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:28:43,326 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 14:28:43,329 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 14:28:43,332 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:28:43,332 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 14:28:43,333 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:28:43,333 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 14:28:43,335 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:28:43,336 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 14:30:05,202 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:30:05,203 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 14:30:05,205 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:30:05,205 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 14:30:05,207 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 14:30:05,209 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:30:05,209 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 14:30:05,210 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:30:05,210 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 14:30:05,212 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:30:05,213 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 14:30:21,910 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:30:21,911 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 14:30:21,913 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:30:21,914 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 14:30:21,917 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 14:30:21,919 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:30:21,919 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 14:30:21,919 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:30:21,919 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 14:30:21,922 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:30:21,922 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 14:30:32,535 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:30:32,535 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 14:30:32,543 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:30:32,544 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 14:30:32,548 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 14:30:32,552 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:30:32,553 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 14:30:32,556 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:30:32,557 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 14:30:32,560 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:30:32,560 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 14:35:54,803 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:35:54,803 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 14:35:54,806 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:35:54,807 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 14:35:54,809 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 14:35:54,812 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:35:54,812 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 14:35:54,814 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:35:54,814 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 14:35:54,816 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:35:54,816 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 14:36:03,604 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:36:03,604 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 14:36:03,607 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:36:03,608 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 14:36:03,610 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 14:36:03,613 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:36:03,613 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 14:36:03,614 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:36:03,614 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 14:36:03,616 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:36:03,617 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 14:37:23,577 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:37:23,577 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 14:37:23,582 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:37:23,584 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 14:37:23,588 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 14:37:23,592 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:37:23,592 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 14:37:23,594 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:37:23,594 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 14:37:23,598 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:37:23,598 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 14:38:33,259 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:38:33,259 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 14:38:33,262 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:38:33,263 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 14:38:33,265 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 14:38:33,267 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:38:33,267 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 14:38:33,267 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:38:33,268 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 14:38:33,269 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:38:33,269 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 14:39:18,008 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:39:18,009 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 14:39:18,010 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:39:18,011 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 14:39:18,013 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 14:39:18,015 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:39:18,015 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 14:39:18,016 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:39:18,016 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 14:39:18,017 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:39:18,017 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 14:55:33,182 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:55:33,182 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 14:55:33,184 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:55:33,184 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 14:55:33,186 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 14:55:33,189 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:55:33,189 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 14:55:33,189 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:55:33,190 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 14:55:33,191 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:55:33,192 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 14:57:54,073 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-03-17 14:59:36,599 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:59:36,608 [Worker-3: Building] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Running 'yarn install' in D:\project\workspace3\demo\front
+2021-03-17 14:59:36,926 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - yarn install v1.16.0
+2021-03-17 14:59:37,159 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - [1/4] Resolving packages...
+2021-03-17 14:59:38,229 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - success Already up-to-date.
+2021-03-17 14:59:38,240 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Done in 1.34s.
+2021-03-17 14:59:38,474 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:59:38,480 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 14:59:38,495 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 14:59:38,498 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:59:38,498 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 14:59:38,499 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 14:59:38,499 [Worker-3: Building] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Running 'yarn build' in D:\project\workspace3\demo\front
+2021-03-17 14:59:38,791 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - yarn run v1.16.0
+2021-03-17 14:59:38,867 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - $ react-scripts build
+2021-03-17 14:59:42,908 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Creating an optimized production build...
+2021-03-17 14:59:49,726 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Compiled with warnings.
+2021-03-17 14:59:49,726 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:59:49,726 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\App.js
+2021-03-17 14:59:49,726 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 1:17:  'useState' is defined but never used  no-unused-vars
+2021-03-17 14:59:49,726 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:59:49,726 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\cmm\container\Home.js
+2021-03-17 14:59:49,726 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 1:17:  'useState' is defined but never used  no-unused-vars
+2021-03-17 14:59:49,727 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:59:49,727 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\index.js
+2021-03-17 14:59:49,727 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 4:42:  'Router' is defined but never used  no-unused-vars
+2021-03-17 14:59:49,727 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:59:49,727 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\sec\container\Login.js
+2021-03-17 14:59:49,727 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 1:17:   'useState' is defined but never used                                                                                                                                                                                                                                                                                                                              no-unused-vars
+2021-03-17 14:59:49,727 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 23:42:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+2021-03-17 14:59:49,728 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:59:49,728 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\uss\contanier\SignUp.js
+2021-03-17 14:59:49,728 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 23:50:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+2021-03-17 14:59:49,728 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:59:49,728 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Search for the keywords to learn more about each warning.
+2021-03-17 14:59:49,728 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - To ignore, add // eslint-disable-next-line to the line before.
+2021-03-17 14:59:49,728 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:59:49,728 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - File sizes after gzip:
+2021-03-17 14:59:49,728 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:59:49,749 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   51.53 KB  build\static\js\2.98d6e635.chunk.js
+2021-03-17 14:59:49,750 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   1.56 KB   build\static\js\3.4fe81683.chunk.js
+2021-03-17 14:59:49,750 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   1.31 KB   build\static\js\main.9970c83e.chunk.js
+2021-03-17 14:59:49,750 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   1.16 KB   build\static\js\runtime-main.9eef8d37.js
+2021-03-17 14:59:49,751 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   852 B     build\static\css\main.0de774d3.chunk.css
+2021-03-17 14:59:49,751 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:59:49,751 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - The project was built assuming it is hosted at /.
+2021-03-17 14:59:49,751 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - You can control this with the homepage field in your package.json.
+2021-03-17 14:59:49,751 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:59:49,751 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - The build folder is ready to be deployed.
+2021-03-17 14:59:49,751 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - You may serve it with a static server:
+2021-03-17 14:59:49,751 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:59:49,751 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   yarn global add serve
+2021-03-17 14:59:49,751 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   serve -s build
+2021-03-17 14:59:49,751 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:59:49,751 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Find out more about deployment here:
+2021-03-17 14:59:49,751 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:59:49,751 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   https://cra.link/deployment
+2021-03-17 14:59:49,751 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 14:59:49,830 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Done in 11.06s.
+2021-03-17 14:59:49,860 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 14:59:49,863 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2021-03-17 15:11:55,751 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 15:11:55,753 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 15:11:55,760 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 15:11:55,763 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 15:11:55,766 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 15:11:55,768 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 15:11:55,769 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 15:11:55,770 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 15:11:55,770 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 15:11:55,772 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 15:11:55,773 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 15:17:11,333 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 15:17:11,333 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 15:17:11,340 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 15:17:11,342 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 15:17:11,359 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 15:17:11,368 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 15:17:11,369 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 15:17:11,370 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 15:17:11,371 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 15:17:11,374 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 15:17:11,374 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 15:52:10,000 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 15:52:10,000 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 15:52:10,004 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 15:52:10,005 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 15:52:10,008 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 15:52:10,010 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 15:52:10,011 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 15:52:10,012 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 15:52:10,012 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 15:52:10,014 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 15:52:10,015 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 17:31:53,955 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:31:53,956 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 17:31:53,961 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:31:53,962 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 17:31:53,964 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 17:31:53,966 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:31:53,966 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 17:31:53,967 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:31:53,967 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 17:31:53,969 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:31:53,970 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 17:34:14,191 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:34:14,192 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 17:34:14,195 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:34:14,196 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 17:34:14,199 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 17:34:14,201 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:34:14,201 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 17:34:14,203 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:34:14,203 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 17:34:14,207 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:34:14,207 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 17:34:49,068 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:34:49,068 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 17:34:49,071 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:34:49,072 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 17:34:49,074 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 17:34:49,078 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:34:49,078 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 17:34:49,078 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:34:49,078 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 17:34:49,081 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:34:49,081 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 17:43:30,642 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-03-17 17:43:41,061 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ D:\project\workspace3\demo\pom.xml.
+2021-03-17 17:43:45,245 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:43:45,333 [Worker-39: Updating Maven Project] INFO  c.g.e.m.p.f.lib.NodeInstaller - Node v14.16.0 is already installed.
+2021-03-17 17:43:45,621 [Worker-39: Updating Maven Project] INFO  c.g.e.m.p.f.lib.YarnInstaller - Yarn 1.16.0 is already installed.
+2021-03-17 17:43:45,725 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2021-03-17 17:43:45,725 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2021-03-17 17:43:45,726 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2021-03-17 17:43:45,727 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2021-03-17 17:43:47,639 [Worker-39: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for demo
+2021-03-17 17:43:47,817 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 17 sec
+2021-03-17 17:43:51,319 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:43:51,383 [Worker-44: Building] INFO  c.g.e.m.p.f.lib.NodeInstaller - Node v14.16.0 is already installed.
+2021-03-17 17:43:51,720 [Worker-44: Building] INFO  c.g.e.m.p.f.lib.YarnInstaller - Yarn 1.16.0 is already installed.
+2021-03-17 17:43:51,722 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:43:51,724 [Worker-44: Building] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Running 'yarn install' in D:\project\workspace3\demo\front
+2021-03-17 17:43:51,965 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - yarn install v1.16.0
+2021-03-17 17:43:52,100 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - [1/4] Resolving packages...
+2021-03-17 17:43:53,057 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - success Already up-to-date.
+2021-03-17 17:43:53,071 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Done in 1.12s.
+2021-03-17 17:43:53,116 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:43:53,117 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 17:43:53,136 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 17:43:53,139 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:43:53,139 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 17:43:53,140 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:43:53,141 [Worker-44: Building] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Running 'yarn build' in D:\project\workspace3\demo\front
+2021-03-17 17:43:53,458 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - yarn run v1.16.0
+2021-03-17 17:43:53,544 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - $ react-scripts build
+2021-03-17 17:43:57,707 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Creating an optimized production build...
+2021-03-17 17:44:04,318 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Compiled with warnings.
+2021-03-17 17:44:04,318 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 17:44:04,319 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\App.js
+2021-03-17 17:44:04,319 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 1:17:  'useState' is defined but never used  no-unused-vars
+2021-03-17 17:44:04,319 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 17:44:04,319 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\cmm\container\Home.js
+2021-03-17 17:44:04,319 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 1:17:  'useState' is defined but never used  no-unused-vars
+2021-03-17 17:44:04,319 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 17:44:04,319 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\index.js
+2021-03-17 17:44:04,319 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 4:42:  'Router' is defined but never used  no-unused-vars
+2021-03-17 17:44:04,319 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 17:44:04,319 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\sec\container\Login.js
+2021-03-17 17:44:04,319 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 1:17:   'useState' is defined but never used                                                                                                                                                                                                                                                                                                                              no-unused-vars
+2021-03-17 17:44:04,319 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 23:42:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+2021-03-17 17:44:04,319 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 17:44:04,319 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - src\uss\contanier\SignUp.js
+2021-03-17 17:44:04,319 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   Line 23:50:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+2021-03-17 17:44:04,319 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 17:44:04,319 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Search for the keywords to learn more about each warning.
+2021-03-17 17:44:04,319 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - To ignore, add // eslint-disable-next-line to the line before.
+2021-03-17 17:44:04,319 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 17:44:04,319 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - File sizes after gzip:
+2021-03-17 17:44:04,320 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 17:44:04,333 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   51.53 KB  build\static\js\2.98d6e635.chunk.js
+2021-03-17 17:44:04,333 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   1.56 KB   build\static\js\3.4fe81683.chunk.js
+2021-03-17 17:44:04,333 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   1.31 KB   build\static\js\main.9970c83e.chunk.js
+2021-03-17 17:44:04,333 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   1.16 KB   build\static\js\runtime-main.9eef8d37.js
+2021-03-17 17:44:04,333 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   852 B     build\static\css\main.0de774d3.chunk.css
+2021-03-17 17:44:04,333 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 17:44:04,333 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - The project was built assuming it is hosted at /.
+2021-03-17 17:44:04,333 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - You can control this with the homepage field in your package.json.
+2021-03-17 17:44:04,333 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 17:44:04,333 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - The build folder is ready to be deployed.
+2021-03-17 17:44:04,334 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - You may serve it with a static server:
+2021-03-17 17:44:04,334 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 17:44:04,334 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   yarn global add serve
+2021-03-17 17:44:04,334 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   serve -s build
+2021-03-17 17:44:04,334 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 17:44:04,334 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Find out more about deployment here:
+2021-03-17 17:44:04,334 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 17:44:04,334 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner -   https://cra.link/deployment
+2021-03-17 17:44:04,334 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - 
+2021-03-17 17:44:04,393 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultYarnRunner - Done in 10.96s.
+2021-03-17 17:44:04,415 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:44:04,416 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2021-03-17 17:44:04,694 [Worker-44: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of demo
+2021-03-17 17:44:04,695 [Worker-44: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for demo
+2021-03-17 17:44:04,702 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:52:51,213 [Worker-46: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ D:\project\workspace3\demo\pom.xml.
+2021-03-17 17:52:53,337 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:52:53,346 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 17:52:53,451 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:52:53,454 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 17:52:53,473 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 17:52:53,475 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:52:53,475 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 17:52:53,476 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:52:53,476 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 17:52:53,479 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:52:53,479 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 17:52:53,479 [Worker-46: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of demo
+2021-03-17 17:52:53,479 [Worker-46: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for demo
+2021-03-17 17:52:53,483 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:52:55,755 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/2.4.3/spring-boot-starter-security-2.4.3-sources.jar
+2021-03-17 17:52:56,093 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/2.4.3/spring-boot-starter-security-2.4.3-sources.jar
+2021-03-17 17:52:56,304 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:52:56,304 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 17:52:56,306 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:52:56,307 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 17:52:56,309 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 17:52:56,311 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:52:56,311 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 17:52:56,312 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:52:56,312 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 17:52:56,314 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:52:56,315 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2021-03-17 17:52:56,440 [Worker-49: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-security:2.4.3
+2021-03-17 17:52:56,963 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/5.4.5/spring-security-config-5.4.5-sources.jar
+2021-03-17 17:52:57,724 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/5.4.5/spring-security-config-5.4.5-sources.jar
+2021-03-17 17:52:58,009 [Worker-49: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-config:5.4.5
+2021-03-17 17:52:58,644 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/5.4.5/spring-security-core-5.4.5-sources.jar
+2021-03-17 17:52:59,339 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/5.4.5/spring-security-core-5.4.5-sources.jar
+2021-03-17 17:52:59,518 [Worker-49: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-core:5.4.5
+2021-03-17 17:53:00,035 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/5.4.5/spring-security-web-5.4.5-sources.jar
+2021-03-17 17:53:00,660 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/5.4.5/spring-security-web-5.4.5-sources.jar
+2021-03-17 17:53:00,902 [Worker-49: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-web:5.4.5
+2021-03-17 17:53:01,415 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1-sources.jar
+2021-03-17 17:53:01,723 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1-sources.jar
+2021-03-17 17:53:02,183 [Worker-49: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.jsonwebtoken:jjwt:0.9.1
+2021-03-17 17:53:03,081 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:53:03,081 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 17:53:03,084 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:53:03,084 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 17:53:03,084 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 17:53:03,086 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:53:03,087 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 17:53:03,087 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:53:03,087 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 17:53:03,089 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:53:03,089 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 17:53:25,199 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:53:25,199 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 17:53:25,202 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:53:25,202 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 17:53:25,205 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 17:53:25,207 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:53:25,207 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 17:53:25,207 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:53:25,207 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 17:53:25,209 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:53:25,209 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 17:54:03,040 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:54:03,040 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 17:54:03,043 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:54:03,043 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 17:54:03,046 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 17:54:03,047 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:54:03,047 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 17:54:03,048 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:54:03,048 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 17:54:03,052 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:54:03,052 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 17:57:16,866 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:57:16,866 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 17:57:16,869 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:57:16,870 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 17:57:16,875 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 17:57:16,878 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:57:16,878 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 17:57:16,880 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:57:16,880 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 17:57:16,883 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:57:16,883 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 17:57:36,341 [Worker-53: Launching demo - DemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:57:36,341 [Worker-53: Launching demo - DemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 17:57:36,345 [Worker-53: Launching demo - DemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:57:36,346 [Worker-53: Launching demo - DemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 17:57:36,349 [Worker-53: Launching demo - DemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 17:57:36,351 [Worker-53: Launching demo - DemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:57:36,352 [Worker-53: Launching demo - DemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 17:57:36,353 [Worker-53: Launching demo - DemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:57:36,353 [Worker-53: Launching demo - DemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 17:57:36,355 [Worker-53: Launching demo - DemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:57:36,356 [Worker-53: Launching demo - DemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 17:59:21,812 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:59:21,812 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 17:59:21,814 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:59:21,815 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 17:59:21,817 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 17:59:21,819 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:59:21,820 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 17:59:21,821 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:59:21,821 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 17:59:21,823 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:59:21,823 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 17:59:34,803 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:59:34,804 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 17:59:34,807 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:59:34,808 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-17 17:59:34,811 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 17:59:34,816 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:59:34,816 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\project\workspace3\demo\src\test\resources
+2021-03-17 17:59:34,818 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - testFailureIgnore property is ignored in non test phases
+2021-03-17 17:59:34,818 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping yarn install as package.json unchanged
+2021-03-17 17:59:34,822 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-17 17:59:34,822 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

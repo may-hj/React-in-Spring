@@ -1,12 +1,5 @@
 package com.example.demo.uss.service;
 
-import java.util.Optional;
-
-import com.example.demo.uss.domain.User;
-
 public interface UserService {
 	
-	public Optional<User> findOne(User t);
-	public long count();
-	public void deleteById(long id);
 }
