@@ -10,3 +10,6 @@
 1616032563756	Move compilation unit
 1616032611811	Rename package 'com.example.demo.sec.configuration'
 1616032665432	Rename type 'AdapterController'
+1616038336069	Rename package 'com.example.demo.sec.util'
+1616038375090	Move compilation unit
+1616055137452	Rename type 'LoginController'
