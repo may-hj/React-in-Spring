@@ -13,9 +13,9 @@ public class HomeController extends Proxy{
 	
 	@GetMapping("/")
 	public String init() {
-		print.accept("==================================");
+		print.accept("===================================");
 		print.accept("======== Boot Initialized ========");
-		print.accept("==================================");
+		print.accept("===================================");
 
 		return "Hello React";		
 	}

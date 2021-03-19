@@ -9,13 +9,14 @@ import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
 @RestController
-public class HomeController extends Proxy{
+public class HomeController {
+	private final Proxy px;
 	
 	@GetMapping("/")
 	public String init() {
-		print.accept("==================================");
-		print.accept("======== Boot Initialized ========");
-		print.accept("==================================");
+		px.print.accept("===================================");
+		px.print.accept("======== Boot Initialized ========");
+		px.print.accept("===================================");
 
 		return "Hello React";		
 	}
